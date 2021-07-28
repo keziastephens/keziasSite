@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: rgb(0, 0, 0);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li{
+    padding: 10px;
+    transition: 0.2s all ease;
+}
+ul li:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+.welcomeContainer{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+.welcomeImage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     background-image: url(kezlogo.png); opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+}
+.welcomeText{
+    z-index: 100;
+}
+
+.welcomeText h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.productContainer{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.product1{
+    height: 50vh;
+    width: 25%;
+    background: rgb(20, 20, 20);
+    background-image: url(clown.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s all ease;
+}
+
+.product1:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+
+.product2{
+    height: 50vh;
+    width: 25%;
+    background: rgb(20, 20, 20);
+    background-image: url(mauimaui.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s all ease;
+}
+
+.product2:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+
+.product3{
+    height: 50vh;
+    width: 25%;
+    background: rgb(20, 20, 20);
+}
+
+
+footer{
+    height:20vh;
+    width: 100vw;
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.socials{
+    color: white;
+
+}
+.socials img{
+    height: 40px;
+       
+}
+.contacts{
+    color: white;
+}
